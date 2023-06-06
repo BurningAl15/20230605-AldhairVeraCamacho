@@ -1,0 +1,53 @@
+mkdir 20230605-AldhairVeraCamacho && cd 20230605-AldhairVeraCamacho
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+
+// Cree el repo antes y le puse ese nombre, esta corregido y le avise a la profe, este es el nombre correcto https://github.com/BurningAl15/20230605-AldhairVeraCamacho
+git remote add origin git@github.com:BurningAl15/ExamenParcial_IntroInformatica.git
+
+git push origin main
+clear
+
+touch comandos.txt main.js index.html
+ls
+git status
+git add .
+git commit -m "commit 01 de AldhairVeraCamacho"
+git push origin main
+git status
+
+git checkout -b feature01
+mkdir Terminal Hardware && touch ./Terminal/resumen.txt ./Hardware/resumen.txt
+ls
+cd Hardware/
+ls
+cd ../Terminal/
+ls
+cd ..
+git status
+git add .
+git commit -m "commit 02 de AldhairVeraCamacho"
+git push origin feature01
+
+git checkout -b feature02
+ls
+cd Terminal/ && code .
+ls
+cd ..
+ls
+cd Hardware/
+ls
+code .
+cd ..
+ls
+git status
+git add .
+git commit -m "commit 03 de AldhairVeraCamacho"
+git checkout main
+ls
+mv comandos.txt comandosUtilizados.txt
+ls
+history
