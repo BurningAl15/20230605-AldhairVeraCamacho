@@ -46,8 +46,21 @@ ls
 git status
 git add .
 git commit -m "commit 03 de AldhairVeraCamacho"
+git push origin feature02
+
 git checkout main
 ls
 mv comandos.txt comandosUtilizados.txt
 ls
 history
+
+git add .
+git commit -m "commit 04 de AldhairVeraCamacho"
+git push origin main
+
+//Hice correcciones aqui, me falto añadir git push origin feature02
+git add .
+git commit -m "commit 04 de AldhairVeraCamacho"
+git push origin main
+
+ls 
