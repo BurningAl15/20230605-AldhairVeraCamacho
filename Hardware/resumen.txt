@@ -1,0 +1,3 @@
+- Motherboard
+- Memoria RAM
+- Procesador/CPU

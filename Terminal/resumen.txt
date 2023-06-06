@@ -1,0 +1,5 @@
+- mkdir nombreCarpeta
+- touch nombreArchivo.extension
+- ls
+- rm nombreArchivo.extension
+- rmdir nombreCarpeta
